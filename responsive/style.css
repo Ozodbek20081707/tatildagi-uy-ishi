@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+margin: 0 auto;
+background-color: lightgrey;
+height: 100%;
+}
+.blogs{
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+border: 0.5px solid black;
+flex-wrap: wrap;
+
+}
+.blog{
+padding-left: 30px;
+padding-top: 10px;
+border-radius: 5px;
+background-color: white;
+margin: 10px;
+}
+.narx{
+    font-size: 40px;
+}
+.jadval{
+    width: 100%;
+    display: flex;
+}
+.bir{
+    margin-top: 10px;
+}
+.ikki{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.title{
+font-size: 25px;
+margin-top: 10px;
+}
+.text{
+    font-size: 18px;
+    color:grey;
+}
+.text1{
+    font-size: 15px;
+    color: grey;
+}
+.chiziq{
+    margin-top: 10px;
+    width: 80%;
+    border: 1px solid grey;
+}
+.kurs1{
+    margin-top: 10px;
+}
+@media (max-width: 100%){
+.blog{
+flex-basis: calc(100%/5);
+max-width: calc(100%/5);
+}   
+}
+@media (max-width:1200px){
+.blog{
+flex-basis: calc(100%/4);
+max-width: calc(100%/4);
+}   
+}
+@media (max-width:990px){
+.blog{
+    flex-basis: calc(100%/3);
+    max-width: calc(100%/3);
+}
+}
+@media (max-width:776px){
+.blog{
+    flex-basis: calc(100%/2);
+    max-width: calc(100%/2);
+}
+}
+@media (max-width:480px){
+.blog{
+    flex-basis: calc(100%/1);
+    max-width: calc(100%/1);
+}
+}
